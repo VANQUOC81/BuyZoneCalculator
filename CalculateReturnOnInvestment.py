@@ -2,7 +2,7 @@ from colorama import Fore, Back, Style
 
 def CalculateRoi(): 
     # calculate ROI and investment gain/loss based on investment amount
-    investmentAmount = float(input("How much did you invest: $ "))
+    investmentAmount = float(input(f"{Fore.RESET}How much did you invest: $ "))
     boughtPrice = float(input("Enter bought price: $ "))
     amountShares = investmentAmount / boughtPrice
     print(f"Amount shares: {amountShares}")
@@ -21,9 +21,6 @@ def CalculateRoi():
     else :
         print(f"{Fore.RED}Investment loss $ {format(difference, '.2f')}")
         print(f"{Fore.RED}ROI {ROI}%")
-
-    print(Style.RESET_ALL)
-
 
 while True:
     CalculateRoi()
