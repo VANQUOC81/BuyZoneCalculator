@@ -8,7 +8,7 @@
             "name": "Python: Huidige bestand",
             "type": "python",
             "request": "launch",
-            "program": "CalculateBuyZoneGUI.py",
+            "program": ".\\Calculators\\CalculateBuyZoneGUI\\CalculateBuyZoneGUI.py",
             "console": "integratedTerminal",
             "args": [
                 "Quoc"

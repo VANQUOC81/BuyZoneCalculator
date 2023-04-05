@@ -1,3 +1,4 @@
+# python class
 class Vehicle:
     def __init__(self, started = False, speed = 0):
         self.started = started
@@ -13,7 +14,8 @@ class Vehicle:
             print("You need to start the car first")
     def stop(self):
         self.speed = 0
-# inherit Vehicle
+
+# python inheritance
 class Car(Vehicle):
     trunk_open = False
 
